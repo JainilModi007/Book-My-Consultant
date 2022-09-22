@@ -1,0 +1,30 @@
+
+/* using module css to create separate css for each components and avoid  class name collision  */
+
+.header {
+  background-color: purple;
+  height: 70px;
+  padding: 11px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {         /* no need to add background color for logo , img itself contained */
+  height: 35px;
+  display: flex;
+}
+
+.header .logo img {
+  height: 110%;
+}
+
+.header .logo span {
+  height: 100%;
+  margin-left: 15px;
+  color: white;
+  font-size : 25px;
+
+}
+
+
